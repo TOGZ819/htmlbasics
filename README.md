@@ -3,4 +3,4 @@ Hello and welcome to this repository I made, this shows the basics of HTML. For 
 
 I hope this helps you all learn HTML
 
-##  Credits go to Bro Code
+##  Credits go to [Bro Code](https://www.youtube.com/@BroCodez)
