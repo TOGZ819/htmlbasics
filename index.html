@@ -174,7 +174,26 @@
         <br>
 
         <!--iframe = embeds content from another webpage into an HTML Document.-->
-
         <iframe style="border:0;" src="/Iframehtml/Iframe.html" width="450" height="520"></iframe>
+        <hr>
+        <br>
+
+        <!--Buttons-->
+        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0">
+            <button disabled style="height:50px;width: 100px; background-color: #333333; border-radius:20px;">Click Me!</button>
+        </a>
+        <br>
+        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target=_blank>
+            <button style="height:50px;width: 100px; background-color: #333333; border-radius:20px;">Click Me!</button>
+        </a>
+        <br>
+        <button onclick="doSomething()" style="height:50px;width: 100px; background-color: #333333; border-radius:20px;">Click Me!</button>
+        <p id="test">Hello</p>
+
+        <script>
+            function doSomething(){
+                document.getElementById("test").innerHTML = "Goodbye";
+            }
+        </script>
     </body>
 </html>
